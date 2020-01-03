@@ -5,9 +5,9 @@ Her not için de anket mi olur ...
 Tarayıcınızın konsoluna bu kodu yapıştırın.
 
 
-const array1 = _StudentCourses
-array1.forEach(myFunction)
-console.log("ATAK4NHR")
+const array1 = _StudentCourses;
+array1.forEach(myFunction);
+console.log("ATAK4NHR");
 function myFunction(item, index, arr) {
   
   if(typeof arr[index]["ExamPoints"][0] !== 'undefined'){
